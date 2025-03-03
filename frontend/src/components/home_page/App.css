@@ -1,0 +1,235 @@
+.home-section {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: black;
+    margin: 0;
+    /* background-color: #f4f4f4; */
+    /* overflow-y: hidden;   */
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    left: 0;
+    top: 100px;
+    bottom: 35px;
+    flex-direction: column;
+    display: flex;
+    overflow-y: auto;
+    text-align: left;
+  }
+  
+  .home_container {
+    width: 50%;
+    border-radius: 5px;
+    margin: 20px auto;
+    padding: 2rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-size: 25px;
+  }
+  
+  .aim-section {
+    width: 50%;
+    border-radius: 5px;
+    margin: 20px auto;
+    padding: 2rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #f0f8ff; /* Alice Blue */
+    text-align: left;
+  }
+  
+  .functionality-section {
+    width: 50%;
+    border-radius: 5px;
+    margin: 20px auto;
+    padding: 2rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #fafad2; /* Light Goldenrod Yellow */
+    text-align: left;
+  }
+  
+  .instructions-section {
+    width: 50%;
+    border-radius: 5px;
+    margin: 20px auto;
+    padding: 2rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #f0fff0; /* Honeydew */
+    text-align: left;
+  }
+  
+  .example-section {
+    width: 50%;
+    border-radius: 5px;
+    margin: 20px auto;
+    padding: 2rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+  }
+  
+  .features-section {
+    width: 50%;
+    border-radius: 5px;
+    margin: 20px auto;
+    padding: 2rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #ffe4e1; /* Misty Rose */
+    text-align: left;
+  }
+  
+  h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-decoration: underline;
+  }
+  
+  p {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  ul,
+  ol {
+    margin-bottom: 20px;
+    padding-left: 20px;
+  }
+  
+  li {
+    margin-bottom: 10px;
+  }
+  
+  /* button {
+    display: block;
+    margin: 0 auto;
+    background-color: lightgreen;
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  button:hover {
+    background-color: lightblue;
+  } */
+
+.formlink {
+  display: block;
+  /* margin: 0 auto; */
+  margin-left: 40%;
+  margin-right: 40%;
+  background-color: lightgreen;
+  color: black;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 10px;
+  text-align: center;
+  text-decoration: none;
+}
+  
+  img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+  }
+
+  /* .History-page{
+    width: 50%;
+    border-radius: 5px;
+    margin: 20px auto;
+    padding: 2rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color:  #fafad2;
+    text-align: left;
+  } */
+
+  .history-page {
+    width: 50%;
+    border-radius: 8px;
+    margin: 20px auto;
+    padding: 20px;
+    /* box-shadow: none;  */
+    background-color: #f7f7f7;
+    text-align: left;
+  }
+
+  .content-page {
+    width: 50%;
+    border-radius: 8px;
+    margin: 20px auto;
+    padding: 20px;
+    box-shadow: none; 
+    background-color: #f0f8ff;
+    text-align: left;
+  }
+  
+  
+  .page-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .card {
+    margin-bottom: 20px;
+    pointer-events: none;
+  }
+  
+  .card-description {
+    margin-bottom: 10px;
+  }
+  
+  .card-buttons {
+    list-style: none;
+    padding-left: 0;
+  }
+  
+  .card-buttons li {
+    margin-bottom: 10px;
+  }
+  
+  .collapse-button, .open-button {
+    background-color: blue; /* Set button color to blue */
+    color: white; /* Set text color to white */
+    border: none; /* Remove button border */
+    border-radius: 5px; /* Add border radius */
+    padding: 8px 16px; /* Add padding */
+    cursor: pointer;
+  }
+
+  .expand-button {
+    background-color: white; /* Set button color to blue */
+    color: blue; /* Set text color to white */
+    border: none; /* Remove button border */
+    border-radius: 5px; /* Add border radius */
+    padding: 8px 16px; /* Add padding */
+    cursor: pointer;
+  }
+  
+  .search-section,
+  .access-section {
+    margin-bottom: 20px;
+  }
+  
+  .search-title,
+  .access-title {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .search-types,
+  .access-methods {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  .search-types li,
+  .access-methods li {
+    margin-bottom: 10px;
+  }
+  
