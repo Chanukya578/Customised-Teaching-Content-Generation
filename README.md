@@ -1,6 +1,6 @@
 # Instructions for Running
 
-In the terminal, execute the following commands in different terminals<br>
+In the terminal, execute the following commands in **different terminals** <br>
 
 **frontend:**<br>
 ```
